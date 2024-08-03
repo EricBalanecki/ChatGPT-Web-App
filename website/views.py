@@ -5,9 +5,9 @@ from . import db
 import json
 from openai import OpenAI
 
-cleint = OpenAI(
-    api_key = "" #custom openai playground api key
-)
+# cleint = OpenAI(
+#     api_key = "" #custom openai playground api key
+# )
 
 views = Blueprint('views', __name__)
 
